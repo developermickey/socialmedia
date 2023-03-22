@@ -1,4 +1,4 @@
-import { Bookmark, CalendarViewDay, CardTravel, Chat, EventAvailable, Group, PlayCircle, QuestionAnswerRounded, QuestionMarkOutlined, RssFeed, VerifiedUser,  } from "@mui/icons-material";
+import { Bookmark, CardTravel, Chat, EventAvailable, Group, PlayCircle, QuestionAnswerRounded, QuestionMarkOutlined, RssFeed, VerifiedUser,  } from "@mui/icons-material";
 import { BadgeMark } from "@mui/material";
 import "./sidebar.css";
 
