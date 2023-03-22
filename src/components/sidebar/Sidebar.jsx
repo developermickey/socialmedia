@@ -46,6 +46,58 @@ export default function Sidebar() {
                   <span className="sidebarListItemText">Course</span>
                 </li>
               </ul>
+              <button className="sidebarButton">
+                Show More
+              </button>
+              <hr className="sidebarHr" />
+
+              <ul className="sidebarFriendList">
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+                <li className="sidebarFriend">
+                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Mukesh Pathak</span>
+                </li>
+              </ul>
+
            </div>
 
       </div> 
