@@ -1,6 +1,8 @@
 import { Bookmark, CardTravel, Chat, EventAvailable, Group, PlayCircle, QuestionAnswerRounded, QuestionMarkOutlined, RssFeed, VerifiedUser,  } from "@mui/icons-material";
 import { BadgeMark } from "@mui/material";
 import "./sidebar.css";
+import { Users } from "../../dummyData";
+import CloseFriend from "../closefriend/CloseFriend";
 
 
 
@@ -52,50 +54,11 @@ export default function Sidebar() {
               <hr className="sidebarHr" />
 
               <ul className="sidebarFriendList">
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
-                <li className="sidebarFriend">
-                  <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-                  <span className="sidebarFriendName">Mukesh Pathak</span>
-                </li>
+
+                {Users.map(u=>(
+                  <CloseFriend key={u.id} user={u} />
+                ))}
+                
               </ul>
 
            </div>
